@@ -1,0 +1,2 @@
+# Core model, workbench and tests use Python 3.10+ standard library only.
+# Optional PDF regeneration: reportlab==4.4.7 (generated PDFs are included).

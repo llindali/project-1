@@ -1,0 +1,7 @@
+REHEARSAL SCRIPT — NOT AN ACTUAL TRANSCRIPT. Target 4:00–4:40; maximum 5:00.
+0:00–0:40 Show README; run python model.py and python -m unittest -v. Mention no core third-party dependencies.
+0:40–1:30 Show model.py and legacy_statements.py. Explain earnings to cash/equity, PP&E roll-forward, working capital, purchased research, capitalized acquisitions and financing. Explain that cash is calculated from cash flows rather than plugged to balance.
+1:30–2:10 Explain FCFF: remove borrowing and interest/tax-financing effects; keep research and reinvestment. Show enterprise to equity and shares. Negative cash flows are retained.
+2:10–3:00 Show tests: course fixture $8.20 common share value, statement gaps, reverse price solve, monotonicity and corruption refusal. Distinguish mechanical checks from economic truth.
+3:00–3:50 AFTER completion, show your own committed AI-off prediction and the locked test results. State old/new input, units, expected and actual direction, decision effect and reconciliation. If incomplete, say incomplete; do not read a fabricated prediction.
+3:50–4:30 Show fresh-environment cold-run log; state limitations and one independently checked definition. Demonstrate the non-GAAP performance margin is not GAAP EBIT.

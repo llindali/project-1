@@ -1,0 +1,58 @@
+{
+  "definition": "FY2025 GAAP diluted EPS and revenue; September 8 2026 closes; FY2025 balance sheets and diluted weighted-average share proxies. Approximate EV, not spot market cap. Operating leases expensed; all disclosed investments treated nonoperating at book value.",
+  "rows": [
+    {
+      "ticker": "LLY",
+      "price": 1123.91,
+      "eps": 22.95,
+      "shares": 899.3,
+      "revenue": 65179.0,
+      "debt": 42503.0,
+      "cash": 7268.0,
+      "investments": 2802.0,
+      "nci": 22.0,
+      "pe": 48.97211328976035,
+      "ev": 1043187.263,
+      "ev_revenue": 16.004959618895658
+    },
+    {
+      "ticker": "MRK",
+      "price": 148.46,
+      "eps": 7.28,
+      "shares": 2507.0,
+      "revenue": 65011.0,
+      "debt": 49339.0,
+      "cash": 14565.0,
+      "investments": 956.0,
+      "nci": 56.0,
+      "pe": 20.392857142857142,
+      "ev": 406063.22000000003,
+      "ev_revenue": 6.24606943440341
+    },
+    {
+      "ticker": "PFE",
+      "price": 27.79,
+      "eps": 1.36,
+      "shares": 5713.0,
+      "revenue": 62579.0,
+      "debt": 64795.0,
+      "cash": 1142.0,
+      "investments": 14075.0,
+      "nci": 299.0,
+      "pe": 20.43382352941176,
+      "ev": 208641.27,
+      "ev_revenue": 3.3340460857476146
+    }
+  ],
+  "pe_range": [
+    468.0160714285714,
+    468.9562499999999
+  ],
+  "ev_revenue_range": [
+    416.6102075669741,
+    205.5540863148491
+  ],
+  "pe_median": 468.4861607142857,
+  "ev_median": 311.08214694091157,
+  "status": "Financial inputs checked to primary annual filings; dated price closes independently rechecked October 6"
+}

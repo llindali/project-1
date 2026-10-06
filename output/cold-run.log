@@ -1,0 +1,153 @@
+Cold run UTC 2026-10-06T17:05:19.640743+00:00
+Fresh Python venv; no packages installed.
+Command: python model.py
+Exit: 0
+{
+  "valuation_date": "2026-09-08",
+  "units": "USD millions except per-share USD; shares millions",
+  "scenarios": {
+    "downside": {
+      "ev": 397875.6827456099,
+      "equity": 355773.6827456099,
+      "per_share": 398.0907270287679,
+      "pv_stub": 3192.0877916778627,
+      "pv_explicit": 106513.019110075,
+      "pv_terminal": 288170.575843857,
+      "terminal_share": 0.7242729031723834,
+      "terminal_fcff": 38249.976569511884,
+      "bridge": {
+        "cash": 8950.0,
+        "investments": 3856.0,
+        "debt": 54908.0,
+        "shares": 893.7
+      },
+      "market_price": 1123.91
+    },
+    "base": {
+      "ev": 716126.0508958282,
+      "equity": 674024.0508958282,
+      "per_share": 754.1949769450913,
+      "pv_stub": 5059.430164688198,
+      "pv_explicit": 149936.30053427842,
+      "pv_terminal": 561130.3201968615,
+      "terminal_share": 0.7835636191350994,
+      "terminal_fcff": 57649.95257630001,
+      "bridge": {
+        "cash": 8950.0,
+        "investments": 3856.0,
+        "debt": 54908.0,
+        "shares": 893.7
+      },
+      "market_price": 1123.91
+    },
+    "upside": {
+      "ev": 1139936.8060731252,
+      "equity": 1097834.8060731252,
+      "per_share": 1228.4153587032843,
+      "pv_stub": 5283.793977461696,
+      "pv_explicit": 178436.94229582656,
+      "pv_terminal": 956216.069799837,
+      "terminal_share": 0.8388325253693907,
+      "terminal_fcff": 71958.81785715198,
+      "bridge": {
+        "cash": 8950.0,
+        "investments": 3856.0,
+        "debt": 54908.0,
+        "shares": 893.7
+      },
+      "market_price": 1123.91
+    }
+  },
+  "reverse_dcf": {
+    "growth_shift": 0.09618711562066964,
+    "per_share": 1123.9099999999999,
+    "revenue_2031": 260868.83390531072,
+    "status": "solved"
+  },
+  "source_status": "Primary annual financials, Q2 LLY shares/bridge and September 8 market closes checked; personal assumption/receipt review pending",
+  "recommendation": "watch/defer; do not initiate before source and evidence gaps are closed"
+}
+Base value/share: 754.1949769450913
+
+
+Command: python peers.py
+Exit: 0
+{
+  "definition": "FY2025 GAAP diluted EPS and revenue; September 8 2026 closes; FY2025 balance sheets and diluted weighted-average share proxies. Approximate EV, not spot market cap. Operating leases expensed; all disclosed investments treated nonoperating at book value.",
+  "rows": [
+    {
+      "ticker": "LLY",
+      "price": 1123.91,
+      "eps": 22.95,
+      "shares": 899.3,
+      "revenue": 65179.0,
+      "debt": 42503.0,
+      "cash": 7268.0,
+      "investments": 2802.0,
+      "nci": 22.0,
+      "pe": 48.97211328976035,
+      "ev": 1043187.263,
+      "ev_revenue": 16.004959618895658
+    },
+    {
+      "ticker": "MRK",
+      "price": 148.46,
+      "eps": 7.28,
+      "shares": 2507.0,
+      "revenue": 65011.0,
+      "debt": 49339.0,
+      "cash": 14565.0,
+      "investments": 956.0,
+      "nci": 56.0,
+      "pe": 20.392857142857142,
+      "ev": 406063.22000000003,
+      "ev_revenue": 6.24606943440341
+    },
+    {
+      "ticker": "PFE",
+      "price": 27.79,
+      "eps": 1.36,
+      "shares": 5713.0,
+      "revenue": 62579.0,
+      "debt": 64795.0,
+      "cash": 1142.0,
+      "investments": 14075.0,
+      "nci": 299.0,
+      "pe": 20.43382352941176,
+      "ev": 208641.27,
+      "ev_revenue": 3.3340460857476146
+    }
+  ],
+  "pe_range": [
+    468.0160714285714,
+    468.9562499999999
+  ],
+  "ev_revenue_range": [
+    416.6102075669741,
+    205.5540863148491
+  ],
+  "pe_median": 468.4861607142857,
+  "ev_median": 311.08214694091157,
+  "status": "Financial inputs checked to primary annual filings; dated price closes independently rechecked October 6"
+}
+
+
+Command: python -m unittest -v
+Exit: 0
+
+test_bridge (test_model.Checks.test_bridge) ... ok
+test_corruption (test_model.Checks.test_corruption) ... ok
+test_growth (test_model.Checks.test_growth) ... ok
+test_known_answer (test_model.Checks.test_known_answer) ... ok
+test_negative_fcff_retained (test_model.Checks.test_negative_fcff_retained) ... ok
+test_refuse_bounds (test_model.Checks.test_refuse_bounds) ... ok
+test_refuse_perpetuity (test_model.Checks.test_refuse_perpetuity) ... ok
+test_reverse (test_model.Checks.test_reverse) ... ok
+test_statements (test_model.Checks.test_statements) ... ok
+test_terminal_growth (test_model.Checks.test_terminal_growth) ... ok
+test_wacc (test_model.Checks.test_wacc) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.007s
+
+OK

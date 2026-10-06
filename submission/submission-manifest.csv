@@ -1,0 +1,13 @@
+item,required,location_or_url,title,duration_or_as_of,timestamp_index,access_checked,frozen_or_commit_id,notes
+Research-Evolution.pdf,yes,submission/Research-Evolution.pdf,Research Evolution,2026-10-06,,local PDF checked,25092df1e57a24e2f2d17ba9ac8cbc9c3228e79b,REVIEW: receipt and baseline authenticity pending
+Repository,yes,https://github.com/llindali/project-1,Project 1 - Eli Lilly,2026-10-06,,Public repository published; remote contents verified after upload,,Prepared review package; student-only requirements remain in docs/student-actions.md
+Visible executed output,yes,output/visible_output.md,Executed FCFF results,2026-09-08,,local checked,25092df1e57a24e2f2d17ba9ac8cbc9c3228e79b,
+Decision memo or deck,yes,submission/Decision-Memo.pdf,Decision memo,2026-09-08,,2 pages checked,25092df1e57a24e2f2d17ba9ac8cbc9c3228e79b,Linda judgment review pending
+Validation-and-AI-Use.pdf,yes,submission/Validation-and-AI-Use.pdf,Validation and AI Use,2026-10-06,,local PDF checked,25092df1e57a24e2f2d17ba9ac8cbc9c3228e79b,Human locked test pending
+Video 1,yes,,Project 1 Video 1,maximum 3:00,,not recorded,,Rehearsal guide in docs; real recording required
+Transcript Video 1,yes,,transcript-video-1.txt,,,not created,,Must match actual recorded speech
+Video 2,yes,,Project 1 Video 2,maximum 5:00,,not recorded,,Rehearsal guide in docs; real recording required
+Transcript Video 2,yes,,transcript-video-2.txt,,,not created,,Must match actual recorded speech
+Video 3,yes,,Project 1 Video 3,maximum 5:00,,not recorded,,Rehearsal guide in docs; real recording required
+Transcript Video 3,yes,,transcript-video-3.txt,,,not created,,Must match actual recorded speech
+Optional deployed output,no,,,,,,Hosting not required,

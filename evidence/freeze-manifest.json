@@ -1,0 +1,14 @@
+{
+  "content_commit": "25092df1e57a24e2f2d17ba9ac8cbc9c3228e79b",
+  "sha256": {
+    "model.py": "e4d32d6927f61c285f7e2cb82aeade663d198551a243976da4f66664ca934bdf",
+    "legacy_statements.py": "77491d7f9e256f6d51c3d49b0fbe2cba9aebc19bacee311f058bc858f62a5308",
+    "peers.py": "943d8495f65b816abad530f83a7271d43e2a46780039e2735f7e5630f7ea4423",
+    "docs/Edition-A-original.md": "35eefe6cc17bcfc29d4e5b50bfb48067826cf6d2ed6bd100c25497e530d02385",
+    "submission/Research-Evolution.pdf": "4a96e2ad53b86a6461d98e06d7cc1ed9bd23674d77ef5707d98ef54e581b86cf",
+    "submission/Validation-and-AI-Use.pdf": "c3bbd68bb49afbdbf7e618d38a1f8f60dde047f5107ba628426486d132607bde",
+    "submission/Decision-Memo.pdf": "801f40d9655e8d7dfc9a173f403da25054274b2407310a33ea1c17d4d4b4c523",
+    "output/visible_output.json": "c0c379ed1b50e80bc07d840e993a61e8ce99e41a28efe77cc7c3e7e81fe2290c"
+  },
+  "status": "Review package; public repository/video/receipt/human prediction pending"
+}

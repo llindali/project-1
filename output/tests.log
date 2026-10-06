@@ -1,0 +1,16 @@
+test_bridge (test_model.Checks.test_bridge) ... ok
+test_corruption (test_model.Checks.test_corruption) ... ok
+test_growth (test_model.Checks.test_growth) ... ok
+test_known_answer (test_model.Checks.test_known_answer) ... ok
+test_negative_fcff_retained (test_model.Checks.test_negative_fcff_retained) ... ok
+test_refuse_bounds (test_model.Checks.test_refuse_bounds) ... ok
+test_refuse_perpetuity (test_model.Checks.test_refuse_perpetuity) ... ok
+test_reverse (test_model.Checks.test_reverse) ... ok
+test_statements (test_model.Checks.test_statements) ... ok
+test_terminal_growth (test_model.Checks.test_terminal_growth) ... ok
+test_wacc (test_model.Checks.test_wacc) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.007s
+
+OK
