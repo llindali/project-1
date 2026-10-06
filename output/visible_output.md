@@ -68,16 +68,3 @@ September 8, 2026 · USD millions · review pending student confirmations
 | 10.0% | 3.0% | 663.19 |
 
 Approximate peer P/E range $468.02–$468.96; EV/revenue range $205.55–$416.61. These are qualified cross-checks, not averaged valuations.
-
-## One-at-a-time driver spans
-
-Ranges apply to the same restored base.
-
-| Driver | Input low/high | EBIT span, USD m | FCFF span, USD m | Value span, USD/share |
-|---|---|---:|---:|---:|
-| rd_ratio | 0.18 / 0.22 | 6,984.32 | 5,587.45 | 74.71 |
-| capex_shift | -0.02 / 0.02 | 0.00 | 5,406.45 | 21.69 |
-| growth_shift | -0.05 / 0.05 | 37,237.12 | 21,003.88 | 328.81 |
-| inventory_shift | -50.0 / 50.0 | 0.00 | 724.27 | 4.58 |
-
-Value-span ranking over these widths: growth_shift, rd_ratio, capex_shift, inventory_shift. These widths have different economic meanings; expanding any width can alter the rank. No probabilities are inferred.

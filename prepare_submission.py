@@ -14,7 +14,7 @@ def save(name,text):
  (ROOT/'docs'/name).write_text(text)
  return text
 memo=save('Decision-Memo.md',f'''# Eli Lilly — Investment committee memorandum
-Linda Li | September 8, 2026 valuation | Prepared October 6, 2026 | REVIEW DRAFT: student confirmation pending
+Linda Li | September 8, 2026 valuation | Prepared October 6, 2026 | Judgment confirmed by Linda October 6, 2026; remaining submission tasks pending
 
 ## Committee action: watch/defer
 Do not initiate at the inherited $1,123.91 closing-price reference. The integrated FCFF scenarios imply approximately ${sc['downside']['per_share']:,.0f}–${sc['upside']['per_share']:,.0f} per share, with a ${v['per_share']:,.0f} base estimate. The base is {100*(v['per_share']/model.PRICE-1):.1f}% below the reference. These are conditional scenarios, not probabilities or a precise fair-value interval. Revisit after the next results release and evidence of realized pricing, capacity conversion and sustainable cash generation. Before adoption, verify spot dilution, committee hurdle and source conventions; dated closing prices have been rechecked.
@@ -38,7 +38,7 @@ Sources: LLY FY2025 10-K pp.57–59/70; Q2 2026 10-Q pp.5–8; August 5 Q2 relea
 ''')
 evolution=save('Research-Evolution.md',f'''# Research evolution — review package
 ## Status and provenance
-Prepared October 6, 2026 with Codex (GPT-6) assistance. The original repository memo is reproduced unchanged below and separately as `Edition-A-original.md`. Its checkpoint field says pending. The Lab 03 screenshot documents a graded attempt, not the separate checkpoint receipt. Linda must confirm the exact submitted baseline and supply its receipt. This package does not attest to pre-AI authorship or reconstruct missing history.
+Prepared October 6, 2026 with Codex (GPT-6) assistance. The original repository memo is reproduced unchanged below and separately as `Edition-A-original.md`. Its historical checkpoint field remains unchanged. On October 6 Linda confirmed the original-file match and that the Lab 03 screenshot serves as her checkpoint evidence: Attempt 1, September 1, 4:52–5:42 PM, 25/25. See evidence/edition-a-confirmation.md and edition-a-checkpoint.png. Screenshot timezone and separate receipt identifier are not shown. This package does not attest to pre-AI authorship or reconstruct missing history.
 
 ## Edition A — preserved text
 '''+(ROOT/'docs/Edition-A-original.md').read_text()+f'''
@@ -47,7 +47,7 @@ Prepared October 6, 2026 with Codex (GPT-6) assistance. The original repository 
 Retain September 1 Edition A unchanged. Final model date is September 8 to align the saved peer-price snapshot; statement history remains FY2025 and latest bridge balances June 2026. None of the later analysis is backdated. Prior $589 FCFE teaching result and $827 standalone FCFF result use different forecasts/timing and are not interchangeable with this integrated result. The prior Lab 4 $60m short-term-investments bridge addition is not separately identifiable on the Q2 balance sheet: reject it as an unsupported standalone asset, to avoid potential double counting.
 
 ## Edition B — conditional committee view
-Watch/defer remains the proposed action, supported by the integrated base ${v['per_share']:.2f}, downside ${sc['downside']['per_share']:.2f}, upside ${sc['upside']['per_share']:.2f}. It is not a confirmed personal reflection until Linda reviews it. The preserved initial concern about the growth expectations embedded in price is quantified by the reverse DCF. Read the decision memo for triggers and limitations.
+Watch/defer remains the proposed action, supported by the integrated base ${v['per_share']:.2f}, downside ${sc['downside']['per_share']:.2f}, upside ${sc['upside']['per_share']:.2f}. Linda confirmed this judgment and the corrected assumption review on October 6; see Student-Review.md. The preserved initial concern about the growth expectations embedded in price is quantified by the reverse DCF. Read the decision memo for triggers and limitations.
 
 | Item | Edition A | Edition B | Cause and evidence |
 |---|---|---|---|
@@ -58,7 +58,7 @@ Watch/defer remains the proposed action, supported by the integrated base ${v['p
 | Peer challenge | Partner falsification question preserved | Prior inventory challenge retained as reported history, pending confirmation | No fabricated partner or timestamp evidence |
 | Risks | Competition, pricing, capacity, pipeline | Same risks plus terminal share and fixed-driver feedback limitations | Sensitivities and reverse DCF; no material thesis reversal |
 
-Student reflection: Linda must supply her own final account of what surprised her and which assumptions she would defend/revise. No fabricated experiential statement is provided.
+Student assumption review: Linda confirmed the defend/revise/evidence-needed judgments in Student-Review.md. No AI-off prediction or fabricated experiential statement is provided.
 ''')
 validation=save('Validation-and-AI-Use.md',f'''# Validation and AI use — review package
 Decision/user: investment committee; proposed watch/defer. Valuation cutoff September 8, 2026. Build date October 6, 2026. Exact code commit and output hashes are recorded in the repository and submission manifest after freeze.
@@ -83,14 +83,14 @@ No AI-generated or retrospective prediction is claimed. `locked_test.py` refuses
 ## Named AI use
 | Tool / exposed model | Date | Material contribution | Check | Disposition |
 |---|---|---|---|---|
-| Codex / GPT-6, Work mode; finer build version not exposed | October 6, 2026 | Integrate statements with FCFF, timing, interface, tests, peer EV/revenue, prose/scripts | Primary LLY/MRK/PFE filings; manual synthetic arithmetic; accounting identities; clean run | Proposed accept/modify, pending Linda review |
+| Codex / GPT-6, Work mode; finer build version not exposed | October 6, 2026 | Integrate statements with FCFF, timing, interface, tests, peer EV/revenue, prose/scripts | Primary LLY/MRK/PFE filings; manual synthetic arithmetic; accounting identities; clean run | Accept/modify as confirmed in Student-Review.md; human locked test remains incomplete |
 | Prior Codex assistance; exact model/version not recorded in old README | Prior labs, actual interaction dates to confirm | Standalone DCF, statements, P/E and sensitivity documentation | Existing source trails and rerun outputs; no invented version/date | Qualified as inherited work |
 | Prior Lab 4 short-term investment claim ($60m) | Reviewed October 6 | Extra asset in EV bridge | Q2 balance sheet shows only cash/current assets and 3,856 noncurrent investments; no separate line | Rejected as unsupported addition; integrated bridge omits it |
 
 The independent evidence proves particular inputs/definitions, not all judgments. Passing AI-authored tests is not proof that the economic forecast is true. Linda remains responsible for sources, personal confirmations, originality boundary and explaining the system.
 
 ## Limits and stop rules
-Terminal EV share {100*v['terminal_share']:.1f}%; WACC scenario rather than independently estimated CAPM. September 8 market closes were independently rechecked October 6; personal model/assumption review remains required. Product demand, pricing and capacity lack a separate causal patient model. Spending cuts do not alter modeled clinical/capacity success. Fixed margins include D&A so capex does not directly change modeled EBIT. Simplified acquisitions, fixed tax/other claims, liquidity backstop, year-end/proportional timing, average-share proxies and nonoperating investments constrain accuracy. Stop issuing a valuation if accounting, funding, domain or perpetuity checks fail; reconsider the action when downside evidence is corroborated.
+Terminal EV share {100*v['terminal_share']:.1f}%; WACC scenario rather than independently estimated CAPM. September 8 market closes were independently rechecked October 6; Linda confirmed the corrected assumption review on October 6; unresolved assumptions remain qualified. Product demand, pricing and capacity lack a separate causal patient model. Spending cuts do not alter modeled clinical/capacity success. Fixed margins include D&A so capex does not directly change modeled EBIT. Simplified acquisitions, fixed tax/other claims, liquidity backstop, year-end/proportional timing, average-share proxies and nonoperating investments constrain accuracy. Stop issuing a valuation if accounting, funding, domain or perpetuity checks fail; reconsider the action when downside evidence is corroborated.
 ''')
 summary='# Visible executed results\n\nSeptember 8, 2026 · USD millions · review pending student confirmations\n\n'
 summary+='| Scenario | Per share USD | EV USD bn | Terminal share |\n|---|---:|---:|---:|\n'
@@ -101,6 +101,8 @@ summary+='\n## WACC–growth sensitivity\n\n| WACC | Terminal growth | Value/sha
 for r in out['wacc_growth']:summary+=f"| {100*r['wacc']:.1f}% | {100*r['g']:.1f}% | {r['per_share']:.2f} |\n"
 summary+=f"\nApproximate peer P/E range ${min(pr['pe_range']):.2f}–${max(pr['pe_range']):.2f}; EV/revenue range ${min(pr['ev_revenue_range']):.2f}–${max(pr['ev_revenue_range']):.2f}. These are qualified cross-checks, not averaged valuations.\n"
 (ROOT/'output/visible_output.md').write_text(summary)
+memo += '\n## Confirmed student review\nLinda confirmed watch/defer and the corrected assumption review on October 6. Growth, WACC, capacity, terminal returns and spot dilution require stronger evidence; research spending is provisionally accepted. A proposed 15%–20% discount to the base implies $603–$641, conditional on intact fundamentals. Changing only WACC to 8% gives $911.15/share, still 18.9% below reference. This observed sensitivity cannot serve as a new unseen human prediction. Full review: docs/Student-Review.md.\n'
+(ROOT/'docs/Decision-Memo.md').write_text(memo)
 styles=getSampleStyleSheet()
 font_path=Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')
 if font_path.exists():

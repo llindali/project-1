@@ -1,6 +1,6 @@
 # Research evolution — review package
 ## Status and provenance
-Prepared October 6, 2026 with Codex (GPT-6) assistance. The original repository memo is reproduced unchanged below and separately as `Edition-A-original.md`. Its checkpoint field says pending. The Lab 03 screenshot documents a graded attempt, not the separate checkpoint receipt. Linda must confirm the exact submitted baseline and supply its receipt. This package does not attest to pre-AI authorship or reconstruct missing history.
+Prepared October 6, 2026 with Codex (GPT-6) assistance. The original repository memo is reproduced unchanged below and separately as `Edition-A-original.md`. Its historical checkpoint field remains unchanged. On October 6 Linda confirmed the original-file match and that the Lab 03 screenshot serves as her checkpoint evidence: Attempt 1, September 1, 4:52–5:42 PM, 25/25. See evidence/edition-a-confirmation.md and edition-a-checkpoint.png. Screenshot timezone and separate receipt identifier are not shown. This package does not attest to pre-AI authorship or reconstruct missing history.
 
 ## Edition A — preserved text
 # Project 1 - Edition A
@@ -92,7 +92,7 @@ Receipt identifier: _Pending submission and verification._
 Retain September 1 Edition A unchanged. Final model date is September 8 to align the saved peer-price snapshot; statement history remains FY2025 and latest bridge balances June 2026. None of the later analysis is backdated. Prior $589 FCFE teaching result and $827 standalone FCFF result use different forecasts/timing and are not interchangeable with this integrated result. The prior Lab 4 $60m short-term-investments bridge addition is not separately identifiable on the Q2 balance sheet: reject it as an unsupported standalone asset, to avoid potential double counting.
 
 ## Edition B — conditional committee view
-Watch/defer remains the proposed action, supported by the integrated base $754.19, downside $398.09, upside $1228.42. It is not a confirmed personal reflection until Linda reviews it. The preserved initial concern about the growth expectations embedded in price is quantified by the reverse DCF. Read the decision memo for triggers and limitations.
+Watch/defer remains the proposed action, supported by the integrated base $754.19, downside $398.09, upside $1228.42. Linda confirmed this judgment and the corrected assumption review on October 6; see Student-Review.md. The preserved initial concern about the growth expectations embedded in price is quantified by the reverse DCF. Read the decision memo for triggers and limitations.
 
 | Item | Edition A | Edition B | Cause and evidence |
 |---|---|---|---|
@@ -103,4 +103,4 @@ Watch/defer remains the proposed action, supported by the integrated base $754.1
 | Peer challenge | Partner falsification question preserved | Prior inventory challenge retained as reported history, pending confirmation | No fabricated partner or timestamp evidence |
 | Risks | Competition, pricing, capacity, pipeline | Same risks plus terminal share and fixed-driver feedback limitations | Sensitivities and reverse DCF; no material thesis reversal |
 
-Student reflection: Linda must supply her own final account of what surprised her and which assumptions she would defend/revise. No fabricated experiential statement is provided.
+Student assumption review: Linda confirmed the defend/revise/evidence-needed judgments in Student-Review.md. No AI-off prediction or fabricated experiential statement is provided.

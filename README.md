@@ -4,7 +4,7 @@
 
 **Proposed decision: watch/defer.** Five-year statements feed an FCFF DCF, causal cases, sensitivity and a reverse DCF. Qualified MRK/PFE P/E and approximate EV/revenue supply market cross-checks. The locally runnable interface has bounded controls, base reset, live statements/value, and an intentional failing-check demonstration.
 
-**Status: not yet ready for final Brightspace submission.** The original Edition A receipt/authenticity, personal assumption review, human AI-off prediction, and three actual recordings/transcripts require Linda. See [remaining actions](docs/student-actions.md). No receipt, pre-run prediction, video or partner interaction is invented.
+**Status: not yet ready for final Brightspace submission.** Edition A and the corrected assumption review are confirmed by Linda; the human AI-off prediction and three actual recordings/transcripts remain incomplete. See [remaining actions](docs/student-actions.md). No receipt, pre-run prediction, video or partner interaction is invented.
 
 ## Run
 
@@ -25,7 +25,7 @@ Core dependencies: none. Optional PDF regeneration uses ReportLab (`python -m pi
 
 - [Executed results and statements](output/visible_output.md), [full JSON](output/visible_output.json), [peer calculations](output/peers.json).
 - [Decision memo](submission/Decision-Memo.pdf) — within two-page limit.
-- [Research evolution](submission/Research-Evolution.pdf) — original memo preserved, receipt pending.
+- [Research evolution](submission/Research-Evolution.pdf) — original memo preserved, checkpoint role and baseline match confirmed by Linda.
 - [Validation and AI use](submission/Validation-and-AI-Use.pdf).
 - [Source ledger](docs/source-ledger.md), [assumption challenges](docs/assumption-challenges.md), [historical mapping](docs/historical-source-map.md).
 - [Tests](output/tests.log), [cold run](output/cold-run.log), [workbench API verification](output/interface-check.log).
@@ -46,4 +46,4 @@ WACC is a scenario required return rather than independently estimated CAPM; dil
 
 Original work reused from public llindali repositories lab4, lab8, lab10, lab11 and LLY---research. This build was AI-assisted in Codex/GPT-6 on October 6, 2026; finer model build version not exposed. Prior models' exact interaction versions/dates remain to confirm. Linda is responsible for review and final judgment. See Validation-and-AI-Use for material dispositions and independent checks.
 
-The separate Brightspace Edition A receipt remains pending confirmation even though Lab 03 was graded. The locked-test script refuses missing/uncommitted human prediction; no retrospective account replaces it. Video transcripts must reflect actual recordings. Public submission contains no secrets or private screenshot/account data; personal partner contact addresses are excluded.
+Linda confirmed that the supplied Lab 03 screenshot serves as Edition A checkpoint evidence; see evidence/edition-a-confirmation.md. The locked-test script refuses missing/uncommitted human prediction; no retrospective account replaces it. Video transcripts must reflect actual recordings. The public checkpoint screenshot shows assignment results and no account identifiers; personal partner contact addresses are excluded.

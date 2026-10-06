@@ -1,5 +1,5 @@
 # Eli Lilly — Investment committee memorandum
-Linda Li | September 8, 2026 valuation | Prepared October 6, 2026 | REVIEW DRAFT: student confirmation pending
+Linda Li | September 8, 2026 valuation | Prepared October 6, 2026 | Judgment confirmed by Linda October 6, 2026; remaining submission tasks pending
 
 ## Committee action: watch/defer
 Do not initiate at the inherited $1,123.91 closing-price reference. The integrated FCFF scenarios imply approximately $398–$1,228 per share, with a $754 base estimate. The base is -32.9% below the reference. These are conditional scenarios, not probabilities or a precise fair-value interval. Revisit after the next results release and evidence of realized pricing, capacity conversion and sustainable cash generation. Before adoption, verify spot dilution, committee hurdle and source conventions; dated closing prices have been rechecked.
@@ -20,3 +20,6 @@ The downside combines slower growth, higher research/capacity spending, delayed 
 The model uses aggregate growth rather than patient/product drivers; capex does not feed back into capacity or fixed expense margins. Annual statement cash is not rolled to the valuation date, acquired-asset accounting is simplified, and the remaining-2026 bridge prorates annual operating cash flows while excluding already-paid business acquisitions. WACC is illustrative, share counts approximate, and fixed nonoperating balances/claims can omit items. Research cuts do not automatically increase business value. See source ledger and Validation-and-AI-Use for independent checks and unfinished human evidence. No position size is proposed without portfolio constraints.
 
 Sources: LLY FY2025 10-K pp.57–59/70; Q2 2026 10-Q pp.5–8; August 5 Q2 release; MRK/PFE FY2025 filings. Full URLs and definitions: docs/source-ledger.md.
+
+## Confirmed student review
+Linda confirmed watch/defer and the corrected assumption review on October 6. Growth, WACC, capacity, terminal returns and spot dilution require stronger evidence; research spending is provisionally accepted. A proposed 15%–20% discount to the base implies $603–$641, conditional on intact fundamentals. Changing only WACC to 8% gives $911.15/share, still 18.9% below reference. This observed sensitivity cannot serve as a new unseen human prediction. Full review: docs/Student-Review.md.
