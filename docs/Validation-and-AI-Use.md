@@ -15,8 +15,8 @@ USD millions and shares millions. Five full forecasts 2027–2031, proportional 
 - Independent definition check: non-GAAP performance margin is not EBIT; direct Q2 primary filing verifies 893.7m Q2 dilution and 7,050 + 47,858 = 54,908 debt.
 - Cold run: fresh environment without packages, regenerated model/peer outputs and tests; see output/cold-run.log. HTTP workbench API base/change/error recovery tested separately. Linda still must record her demonstration.
 
-## Locked Changed-Input Record — INCOMPLETE
-No AI-generated or retrospective prediction is claimed. `locked_test.py` refuses to execute without a complete committed human-prediction.json. Linda must write her own prediction with AI off, freeze it before the run, execute with AI off, and add actual output/decision effect plus reconciliation. Existing Lab 11 admits no timestamped pre-run record. No prior record is fabricated.
+## Changed-input verification — AI-assisted execution completed
+Linda supplied an independently authored prediction (user attestation) and explicitly requested AI execution. The frozen record and generated result are in evidence/rd-prediction-record.json and output/rd-assisted-test-result.json. Part-2-Reconciliation.md explains actual results and corrected conclusions. The 17% R&D case is outside the ordinary 18%–24% range: normal refusal is logged; an isolated exploratory extension leaves production safeguards unchanged. Value rises from $754.19 to $810.23 (+7.43%), below the predicted $820–$880 interval. Earlier supplied $851.07 is superseded. Watch/defer remains the supplied stance. No human AI-off execution is claimed; the separate locked_test.py guard is unchanged. This does not establish compliance with an AI-off requirement if applicable.
 
 ## Named AI use
 | Tool / exposed model | Date | Material contribution | Check | Disposition |

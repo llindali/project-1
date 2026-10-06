@@ -47,3 +47,6 @@ WACC is a scenario required return rather than independently estimated CAPM; dil
 Original work reused from public llindali repositories lab4, lab8, lab10, lab11 and LLY---research. This build was AI-assisted in Codex/GPT-6 on October 6, 2026; finer model build version not exposed. Prior models' exact interaction versions/dates remain to confirm. Linda is responsible for review and final judgment. See Validation-and-AI-Use for material dispositions and independent checks.
 
 Linda confirmed that the supplied Lab 03 screenshot serves as Edition A checkpoint evidence; see evidence/edition-a-confirmation.md. The locked-test script refuses missing/uncommitted human prediction; no retrospective account replaces it. Video transcripts must reflect actual recordings. The public checkpoint screenshot shows assignment results and no account identifiers; personal partner contact addresses are excluded.
+
+## Part 2 verification
+[Corrected R&D reconciliation](docs/Part-2-Reconciliation.md): AI-assisted 20% to 17% exploratory stress test yields $810.23/share, not the earlier proposed $851.07. Normal model bounds remain 18%–24%. Prediction provenance and actual freeze/execution times are disclosed; no human AI-off execution is claimed.

@@ -1,0 +1,60 @@
+{
+  "prediction_record": {
+    "input": "rd_ratio",
+    "old": 0.2,
+    "new": 0.17,
+    "units": "fraction of revenue",
+    "prediction": "Decreasing recurring R&D from 20% to 17% will raise operating margins, FCFF and per-share value from approximately $754; predicted range $820\u2013$880.",
+    "decision_effect": "Expected watch/defer unchanged because value is expected below the $1,123.91 reference; any margin-of-safety threshold must use the revised valuation.",
+    "user_reported_prediction_timestamp": "2026-10-06T13:42:00-04:00",
+    "user_reports_prediction_without_ai": true,
+    "freeze_timestamp": "2026-10-06T17:50:27.596Z",
+    "execution_mode": "AI-assisted at Linda's explicit request; no AI-off execution attestation",
+    "prior_reconciliation": "Linda supplied proposed changed values including $851.07 before this verified execution. This run checks those claims and is not an unseen test."
+  },
+  "precommit": "9d9ee9f84199a3a0c6c141676656650a0876c511",
+  "execution_timestamp": "2026-10-06T17:51:30.529547+00:00",
+  "execution_mode": "AI-assisted; not a human AI-off locked test",
+  "normal_bounds": [
+    0.18,
+    0.24
+  ],
+  "guard_failure": "rd_ratio outside defended range [0.18, 0.24]",
+  "range_exception": "17% exploratory stress test outside normal 18%\u201324% range; production bounds unchanged",
+  "before": {
+    "ev": 716126.0508958282,
+    "equity": 674024.0508958282,
+    "per_share": 754.1949769450913,
+    "pv_stub": 5059.430164688198,
+    "pv_explicit": 149936.30053427842,
+    "pv_terminal": 561130.3201968615,
+    "terminal_share": 0.7835636191350994,
+    "terminal_fcff": 57649.95257630001,
+    "bridge": {
+      "cash": 8950.0,
+      "investments": 3856.0,
+      "debt": 54908.0,
+      "shares": 893.7
+    },
+    "market_price": 1123.91
+  },
+  "after": {
+    "ev": 766205.0689801183,
+    "equity": 724103.0689801183,
+    "per_share": 810.2305795905988,
+    "pv_stub": 5686.957007696181,
+    "pv_explicit": 162805.41188950508,
+    "pv_terminal": 597712.700082917,
+    "terminal_share": 0.7800949436141444,
+    "terminal_fcff": 61408.38870005001,
+    "bridge": {
+      "cash": 8950.0,
+      "investments": 3856.0,
+      "debt": 54908.0,
+      "shares": 893.7
+    },
+    "market_price": 1123.91
+  },
+  "delta_per_share": 56.03560264550754,
+  "percent_change": 7.429856251825329
+}

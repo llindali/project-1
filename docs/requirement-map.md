@@ -14,7 +14,7 @@
 | Adjustable product and failing checks | app.py + index.html, interface-check.log | HTTP base/change/failure/recovery checked |
 | Unchanged Edition A plus Edition B | preserved original + Research-Evolution | Screenshot checkpoint role and original match confirmed by Linda |
 | Synthetic known answer and independent check | test_model.py, ledger, validation | Passed/rechecked |
-| Locked human AI-off prediction | locked_test.py guard and student-actions | INCOMPLETE; human evidence required |
+| Locked human AI-off prediction | locked_test.py guard and student-actions | AI-assisted R&D verification recorded separately; human AI-off execution not established |
 | Clean run and failure log | output/cold-run.log, tests.log | Fresh venv passed; Linda recording pending |
 | Material AI disposition | Validation-and-AI-Use | Documented; prior exact model/version details unknown |
 | Three videos and corrected transcripts | rehearsal guides + manifest | INCOMPLETE; actual recording required |
