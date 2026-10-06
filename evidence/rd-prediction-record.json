@@ -1,0 +1,13 @@
+{
+  "input": "rd_ratio",
+  "old": 0.2,
+  "new": 0.17,
+  "units": "fraction of revenue",
+  "prediction": "Decreasing recurring R&D from 20% to 17% will raise operating margins, FCFF and per-share value from approximately $754; predicted range $820–$880.",
+  "decision_effect": "Expected watch/defer unchanged because value is expected below the $1,123.91 reference; any margin-of-safety threshold must use the revised valuation.",
+  "user_reported_prediction_timestamp": "2026-10-06T13:42:00-04:00",
+  "user_reports_prediction_without_ai": true,
+  "freeze_timestamp": "2026-10-06T17:50:27.596Z",
+  "execution_mode": "AI-assisted at Linda's explicit request; no AI-off execution attestation",
+  "prior_reconciliation": "Linda supplied proposed changed values including $851.07 before this verified execution. This run checks those claims and is not an unseen test."
+}
