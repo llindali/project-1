@@ -50,3 +50,6 @@ Linda confirmed that the supplied Lab 03 screenshot serves as Edition A checkpoi
 
 ## Part 2 verification
 [Corrected R&D reconciliation](docs/Part-2-Reconciliation.md): AI-assisted 20% to 17% exploratory stress test yields $810.23/share, not the earlier proposed $851.07. Normal model bounds remain 18%–24%. Prediction provenance and actual freeze/execution times are disclosed; no human AI-off execution is claimed.
+
+## Partner discussion
+[October 7 discussion with Annika Rao](docs/Partner-Discussion.md), reported by Linda: R&D leverage challenge, corrected sensitivity evidence, unchanged watch/defer decision, and follow-up research.

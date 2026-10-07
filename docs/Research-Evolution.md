@@ -100,7 +100,10 @@ Watch/defer remains the proposed action, supported by the integrated base $754.1
 | Date/share basis | September 1; 899.3m annual EPS denominator | September 8; 893.7m Q2 diluted proxy for DCF | Primary filing update; spot dilution remains unknown |
 | Model | Research plan and preliminary bridge | Six modeled annual statements, 2026 bridge plus five full FCFF years | Course requirement plus AI-assisted implementation; accounting tests |
 | Valuation | Reference EV about $1.08tn, no fair-value target | Base EV $716.1bn and causal scenarios | Reinvestment, taxes, operating forecast, discount timing |
-| Peer challenge | Partner falsification question preserved | Prior inventory challenge retained as reported history, pending confirmation | No fabricated partner or timestamp evidence |
+| Peer challenge | Partner falsification question preserved | October 7 R&D challenge reported by Linda; prior inventory challenge separate | Partner-Discussion.md; verified numerical corrections and unsourced peer claims disclosed |
 | Risks | Competition, pricing, capacity, pipeline | Same risks plus terminal share and fixed-driver feedback limitations | Sensitivities and reverse DCF; no material thesis reversal |
 
 Student assumption review: Linda confirmed the defend/revise/evidence-needed judgments in Student-Review.md. No AI-off prediction or fabricated experiential statement is provided.
+
+## October 7 partner discussion addendum
+Linda reports an in-person discussion with Annika Rao challenging constant 20% recurring R&D and proposing 17% (16%–18% discussion range). Linda retained 20% and watch/defer. The previously executed 17% exploratory test gives $810.23/share, not the $851.07 in supplied notes. No separate October 7 run or cross-driver range sweep was supplied. Peer benchmarks require sourcing; see docs/Partner-Discussion.md.

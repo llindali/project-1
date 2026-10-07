@@ -19,3 +19,6 @@ These ranges are research stresses, not statistical confidence bounds. Every con
 | DCF shares893.7m; June cash/investments/debt | Q2 EPS and balance sheet | Are average shares/claims stale? | Spot-date basic shares, dilution and material intervening transactions; no fabricated spot count |
 
 Partner inventory challenge is retained from the prior Lab 10 record, attributed there to Annika Rao; personal confirmation and meeting date remain pending. Her email is excluded from this public project. No other person's model outputs are represented as independently verified evidence.
+
+## October 7 partner discussion
+Linda reports Annika Rao challenged 20% recurring R&D and proposed 17% (discussion range 16%–18%). See [discussion record](Partner-Discussion.md). The prior inventory challenge is separate. Verified 17% exploratory result is $810.23/share; the ordinary control range remains 18%–24%. Peer R&D benchmarks need sources; no new range-ranking sweep was supplied.
