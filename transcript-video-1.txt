@@ -1,0 +1,35 @@
+VIDEO 1 — RESEARCH EVOLUTION
+Recording: https://app.screencastify.com/watch/H10LdW6n9yq9EBskMra5
+Transcript supplied by Linda Li on October 14, 2026.
+Not independently checked against playback. Duration and timestamp index pending.
+Bracketed text denotes supplied screen cues, not spoken narration.
+
+[Screen cue: Show Edition-A-original.md and the checkpoint screenshot.]
+
+Hi, I’m Linda Li, and my Project 1 evaluates whether an investment committee should initiate a position in Eli Lilly, defer, or decline.
+
+My original Edition A recommendation was watch/defer. Lilly showed strong operating growth, but I had not established whether future cash flows justified its valuation. Edition A identified the evidence, assumptions, unknowns, and research needed. I preserved it unchanged, with my September 1 checkpoint evidence attached separately.
+
+[Screen cue: Show Research-Evolution.pdf and its comparison table.]
+
+Edition B keeps the same recommendation, but adds quantitative support. The final model links operating forecasts, financial statements, and free cash flow to the firm across five full forecast years, 2027 through 2031.
+
+The valuation reference also changes from September 1 to September 8, 2026, to match the saved market-price snapshot. That later work is documented rather than backdated into Edition A.
+
+The base estimate is approximately $754 per share, compared with a September 8 reference price of $1,123.91. The downside and upside scenarios are approximately $398 and $1,228. These are conditional scenarios, not probabilities.
+
+[Screen cue: Show the source ledger.]
+
+I distinguish reported financial inputs from forecast judgments. Historical statements and reported balances come from filings. Revenue growth, research intensity, required return, and terminal assumptions remain judgments requiring further evidence. The diluted-average share count is also a proxy rather than an exact valuation-date share count.
+
+[Screen cue: Show Partner-Discussion.md.]
+
+My partner, Annika Rao, challenged whether maintaining research spending at 20% of revenue understates operating leverage. I retained 20% in the base, while documenting the alternative. The verified 17% exploratory case increases value to approximately $810 per share, but still does not close the gap to the reference price.
+
+Importantly, the model does not capture how lower research spending could affect future pipeline success.
+
+[Screen cue: Show the validation document.]
+
+Codex helped integrate the model, tests, and documentation. One earlier proposed adjustment—an additional $60 million investment asset—was rejected because it was not supported as a separate item in the reviewed balance sheet.
+
+My conclusion remains watch/defer. The analysis now quantifies the valuation gap and makes the assumptions easier to challenge. I would reconsider after stronger evidence supports sustainable growth and cash conversion, or at a lower price with the business thesis intact.
