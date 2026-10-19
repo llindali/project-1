@@ -8,6 +8,6 @@ Video 1,yes,https://app.screencastify.com/watch/H10LdW6n9yq9EBskMra5,Project 1 V
 Transcript Video 1,yes,transcript-video-1.txt,transcript-video-1.txt,,,Supplied by Linda; playback match unverified,,Added October 14; timestamp index pending
 Video 2,yes,https://app.screencastify.com/watch/zAn7GD7ZoXSt3vzpVwRo,Project 1 Video 2,duration pending,,Playback and logged-out access not independently verified,,Link supplied October 19; timestamp index pending
 Transcript Video 2,yes,transcript-video-2.txt,transcript-video-2.txt,,,Verbatim use confirmed by Linda; playback match unverified,,Latest edited script supplied October 19; timestamp index pending
-Video 3,yes,,Project 1 Video 3,maximum 5:00,,not recorded,,Rehearsal guide in docs; real recording required
-Transcript Video 3,yes,,transcript-video-3.txt,,,not created,,Must match actual recorded speech
+Video 3,yes,https://app.screencastify.com/watch/E03hdtQxwT6ALUj1MZaJ,Project 1 Video 3,duration pending,,Playback and access not independently verified,,Link supplied October 19; failed-check/recovery and timestamps require review
+Transcript Video 3,yes,transcript-video-3.txt,transcript-video-3.txt,,,Supplied by Linda; playback match unverified,,Input direction conflicts with screen cue; displayed value placeholder and failure/recovery evidence pending
 Optional deployed output,no,,,,,,Hosting not required,
