@@ -1,0 +1,54 @@
+VIDEO 3 — LIVE DEMONSTRATION AND COMMITTEE RECOMMENDATION
+Recording: https://app.screencastify.com/watch/E03hdtQxwT6ALUj1MZaJ
+Latest edited transcript supplied by Linda Li on October 19, 2026.
+Not independently verified against playback. Duration and timestamps pending.
+Bracketed text denotes supplied screen cues, not spoken narration.
+Review items: the screen cue specifies 20% to 22% R&D but narration says 22% to 20%; the displayed-value placeholder remains unresolved. No failed-check/recovery sequence appears in the supplied transcript. Confirm against actual recording before final submission.
+
+[Begin with the working interface visible. Show the restored base value.]
+
+This is video 3 on the live demonstration
+
+[Change recurring R&D from 20% to 22%.]
+
+First, we're going to change recurring research spending from 22% to 20% of revenue while leaving the other input controls unchanged.
+
+The recalculated value is approximately [read the displayed value] dollars per share. Higher research expense reduces modeled operating income and after-tax free cash flow, lowering valuation. The model does not separately estimate the future pipeline benefits that additional research might produce.
+
+[Reset to base and show $754.19.]
+
+The recommendation to watch: do not initiate at the September 8, 2026 reference price of $1,123.91.
+
+The base estimate is approximately 32.9% below that reference. The conditional downside and upside cases are approximately $398 and $1,228 per share. These scenarios have no assigned probabilities, but the limited modeled upside and substantial downside make the entry price difficult to defend under the current assumptions.
+
+[Show the forecast statements or executed output.]
+
+The operating case assumes revenue growth slows from 25% in 2027 to 7% in 2031, reaching approximately $174.6 billion in revenue.
+
+The key question is whether demand, realized pricing, manufacturing capacity, and cash conversion can support that growth while funding research and reinvestment. The model uses aggregate growth assumptions rather than a patient-by-product forecast, so those business mechanisms require further evidence.
+
+[Show the sensitivity results.]
+
+Sensitivity results depend on the ranges selected. A driver tested over a wider range can appear more important, so we would not treat a ranking as an inherent fact about the business.
+
+The research-spending example also illustrates a limitation: reducing an expense increases modeled cash flow without automatically capturing damage to future growth. Mechanical valuation improvement is not proof of a better business.
+
+[Show the peer comparison.]
+
+Peer multiples provide a cross-check, but disagree with the DCF. Merck and Pfizer differ from Lilly in growth, product mix, and reported earnings. The peer enterprise values also use approximate share and financial-claim measures.
+
+Their disagreement highlights the growth premium that needs stronger support.
+
+[Show the reverse DCF and terminal-value information.]
+
+With the original assumptions otherwise fixed, one reverse-DCF solution requires adding approximately 9.62 percentage points to each annual growth rate, reaching approximately $260.9 billion in 2031 revenue.
+
+That is a conditional solution, not the market’s unique forecast. Approximately 78.4% of base enterprise value comes from terminal value, making the conclusion particularly sensitive to long-run returns, growth, and the discount rate.
+
+[Return to the restored base workbench.]
+
+We would reconsider initiation if independently supported cash flows justified the price with an acceptable margin of safety. A proposed 20% discount to the current base estimate implies an entry price near $603, provided the business thesis remains intact.
+
+We would move toward do-not-initiate if sustained pricing erosion, manufacturing problems, or weak cash conversion supported the downside case.
+
+The committee ask is to retain Lilly on the watch list, defer a purchase at the reference price, and revisit the valuation after fresh operating evidence. A lower price alone would not be sufficient if the underlying business outlook had deteriorated.
