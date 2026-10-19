@@ -1,0 +1,51 @@
+VIDEO 2 — CODE AND VALIDATION
+Recording: https://app.screencastify.com/watch/zAn7GD7ZoXSt3vzpVwRo
+Linda confirmed October 19, 2026 that she used the latest edited script verbatim.
+Playback match not independently verified. Duration and timestamp index pending.
+Bracketed directions are supplied screen cues, not spoken narration.
+
+[Show README.md.]
+
+Hi, I’m Linda Li. This video explains how the Eli Lilly valuation model runs, how its financial statements connect, and how it's calculations were validated.
+
+The core program requires Python 3.10 or newer and uses the standard library. It does not require an API key or third-party packages to run the valuation and tests. PDF regeneration is separate and uses ReportLab.
+
+[In PowerShell, run: python model.py]
+
+The model includes a 2026 bridge and five full forecast years, 2027 through 2031.
+
+[Show legacy_statements.py, then model.py.]
+
+The inherited statement engine projects the income statement, balance sheet, and cash flow statement. The integrated model converts those operating forecasts into free cash flow to the firm.
+
+Working capital connects revenue and operating costs to cash requirements. Capital expenditure and depreciation feed the asset roll-forward.
+
+Free cash flow starts with operating income, subtracts unlevered cash taxes, adds depreciation and amortization, and subtracts capital expenditure, changes in operating working capital, and applicable capitalized acquisitions.
+
+Purchased research already deducted from operating income is not deducted a second time. Negative explicit free cash flow is retained.
+
+[Show the value function in model.py.]
+
+The model discounts operating cash flows and terminal value to estimate enterprise value. It then adds cash and investments, subtracts debt, and divides equity value by the diluted-average share proxy.
+
+The base uses an illustrative 9% WACC, 2.5% terminal growth, and 20% incremental terminal return on invested capital as assumptions.
+
+[In PowerShell, run: python -m unittest -v. Show the final result.]
+
+The tests check statement articulation, valuation identities, directional behavior, and failure conditions.
+
+A synthetic known-answer example produces $8.20 per common share. Other checks test whether higher WACC reduces value, whether the reverse DCF reproduces the reference price, and whether invalid inputs or corrupted accounting are rejected.
+
+Passing these checks supports mechanical consistency. It does not establish that the forecast is economically correct.
+
+[Show output/rd-assisted-test-result.json.]
+
+The documented R&D sensitivity changes recurring research from 20% to 17% of revenue. The verified value rises from $754.19 to $810.23, below my predicted range of $820 to $880. Watch/defer remains the recommendation.
+
+Seventeen percent falls outside the ordinary model’s 18% to 24% range. The separate exploratory script documents the initial refusal and a temporary range extension; the production safeguards remain unchanged.
+
+[Show docs/Validation-and-AI-Use.md.]
+
+The remaining limitations include approximate dilution, an illustrative discount rate, high terminal-value dependence, and no explicit feedback from research or capacity spending into future business success.
+
+My conclusion is that the model provides a reproducible framework for challenging assumptions, while the investment recommendation still depends on evidence and judgment.
