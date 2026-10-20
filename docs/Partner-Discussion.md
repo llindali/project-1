@@ -33,3 +33,6 @@ The proposed original 20% discount to base is approximately $603. If adopting th
 - Separate patient/volume/net-price forecasts by product or indication, with clinical probabilities and competitive/patent scenarios.
 - Investigate a defensible relationship between research spending and future pipeline productivity rather than an arbitrary decay curve.
 - Test driver rankings over clearly documented ranges before claiming their stability.
+
+## Subsequent executed comparison
+After this discussion record, Codex executed range_ranking.py at Linda’s request. Growth-first rankings do change when the growth range narrows; R&D becomes first. This later evidence is distinct from the October 7 discussion and is not backdated. See Range-Ranking.md.

@@ -56,3 +56,6 @@ Linda confirmed that the supplied Lab 03 screenshot serves as Edition A checkpoi
 
 ## Frozen content snapshot
 The published content commit, repository URL and SHA-256 hashes are recorded in evidence/freeze-manifest.json. The submission manifest references that content commit. The freeze record and submission manifest are excluded from their own hash set to avoid circular references. This is a reproducible package snapshot, not a claim that outstanding course requirements are complete.
+
+## Executed range-ranking comparison
+Run `python range_ranking.py`. [Results](docs/Range-Ranking.md) compare EBIT, FCFF and per-share output spans under three stated bounded range sets. Rankings change when growth is narrowed; base forecasts and valuation are unchanged. Additional execution and documentation were assisted by Codex; this is separate from the pending independent human exercise.

@@ -10,4 +10,4 @@
 
 Current status: technically runnable review package, not a complete authenticated final submission. No videos, receipt, human prediction, or personal attestations have been fabricated.
 
-8. Open technical evidence gap from final audit: compare driver rankings across alternative stated ranges; current one-at-a-time results and qualitative discussion do not establish ranking stability.
+8. COMPLETED: executed three-set range-ranking comparison; see docs/Range-Ranking.md and output/range-ranking.json. Original growth-first ranking changes to R&D-first for narrower growth. Base assumptions remain unchanged.

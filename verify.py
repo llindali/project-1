@@ -8,7 +8,7 @@ def main():
  with tempfile.TemporaryDirectory() as td:
   dst=Path(td)/'project';shutil.copytree(root,dst,ignore=shutil.ignore_patterns('.git','__pycache__','.venv'));env=Path(td)/'env';subprocess.run(['python','-m','venv',str(env)],check=True);py=str(env/'bin/python')
   if not Path(py).exists():py=str(env/'Scripts/python.exe')
-  for args in [['model.py'],['peers.py'],['-m','unittest','-v']]:
+  for args in [['model.py'],['peers.py'],['range_ranking.py'],['-m','unittest','-v']]:
    r=subprocess.run([py]+args,cwd=dst,capture_output=True,text=True);lines+=['Command: python '+' '.join(args),'Exit: '+str(r.returncode),r.stdout,r.stderr]
    if r.returncode:raise RuntimeError('Cold run failed; inspect console')
  (root/'output/cold-run.log').write_text('\n'.join(lines))

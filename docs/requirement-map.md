@@ -9,7 +9,7 @@
 | Low/base/high, WACC-growth, terminal share, reverse DCF | visible output/JSON | Executed |
 | Peer policy + EV/equity multiples | legacy-peer-analysis, peers.py/JSON | Qualified P/E and approximate EV/revenue |
 | Explain method disagreement | Decision-Memo | Implemented; no averaging |
-| Driver sensitivity and range-ranking dependence | JSON, assumption-challenges, memo | One-at-a-time results and October 7 discussion included; alternative-range ranking comparison still absent |
+| Driver sensitivity and range-ranking dependence | JSON, assumption-challenges, memo | Completed: range_ranking.py, Range-Ranking.md and JSON compare three range sets across EBIT, FCFF and value; ranks change |
 | Assumption challenges and downside decision reversal | assumption-challenges and memo | Conditions reviewed by Linda; October 7 R&D challenge documented |
 | Adjustable product and failing checks | app.py + index.html, interface-check.log | HTTP base/change/failure/recovery checked |
 | Unchanged Edition A plus Edition B | preserved original + Research-Evolution | Screenshot checkpoint role and original match confirmed by Linda |

@@ -22,3 +22,6 @@ Partner inventory challenge is retained from the prior Lab 10 record, attributed
 
 ## October 7 partner discussion
 Linda reports Annika Rao challenged 20% recurring R&D and proposed 17% (discussion range 16%–18%). See [discussion record](Partner-Discussion.md). The prior inventory challenge is separate. Verified 17% exploratory result is $810.23/share; the ordinary control range remains 18%–24%. Peer R&D benchmarks need sources; no new range-ranking sweep was supplied.
+
+## Executed range dependence
+The later range_ranking.py test now supplies the missing alternative-range comparison. Growth ranks first with the original +/-5-percentage-point shifts; R&D ranks first after narrowing growth to +/-0.5 points. See Range-Ranking.md for full EBIT/FCFF/value spans and range limitations. This supersedes any earlier claim of universal growth dominance.

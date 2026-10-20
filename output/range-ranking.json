@@ -1,0 +1,371 @@
+{
+  "execution_utc": "2026-10-20T02:31:58.210786+00:00",
+  "execution_mode": "AI-assisted additional range comparison; not a human locked prediction",
+  "valuation_date": "2026-09-08",
+  "units": "profit/FCFF USD millions; value/share USD; ratio inputs fractions; inventory shifts days",
+  "method": "Rank by absolute low-to-high endpoint output span; one driver changes at a time; all others restored to BASE. Tied spans do not imply an economically meaningful ordering.",
+  "basis": "Original ranges match saved own-model sensitivity. Narrow-growth range is a controlled local comparison, not a confidence interval. Wider R&D/inventory ranges use existing model bounds as exploratory stresses, not independently established probabilities.",
+  "base_per_share": 754.1949769450913,
+  "sets": {
+    "original": {
+      "drivers": [
+        {
+          "driver": "growth_shift",
+          "low": -0.05,
+          "high": 0.05,
+          "endpoints": [
+            {
+              "input": -0.05,
+              "profit_2031": 64342.504630399984,
+              "fcff_2031": 44421.30972686976,
+              "per_share": 603.3916794110061
+            },
+            {
+              "input": 0.05,
+              "profit_2031": 101579.62688,
+              "fcff_2031": 65425.18982102712,
+              "per_share": 932.1981897710787
+            }
+          ],
+          "spans": {
+            "profit_2031": 37237.12224960001,
+            "fcff_2031": 21003.880094157357,
+            "per_share": 328.8065103600726
+          }
+        },
+        {
+          "driver": "rd_ratio",
+          "low": 0.18,
+          "high": 0.22,
+          "endpoints": [
+            {
+              "input": 0.18,
+              "profit_2031": 84840.52496000002,
+              "fcff_2031": 56927.4778084678,
+              "per_share": 791.5520453754298
+            },
+            {
+              "input": 0.22,
+              "profit_2031": 77856.20696000001,
+              "fcff_2031": 51340.02340846778,
+              "per_share": 716.8379085147529
+            }
+          ],
+          "spans": {
+            "profit_2031": 6984.318000000014,
+            "fcff_2031": 5587.454400000017,
+            "per_share": 74.71413686067683
+          }
+        },
+        {
+          "driver": "capex_shift",
+          "low": -0.02,
+          "high": 0.02,
+          "endpoints": [
+            {
+              "input": -0.02,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 56836.976777963806,
+              "per_share": 765.0382685389831
+            },
+            {
+              "input": 0.02,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 51430.5244389718,
+              "per_share": 743.3516853511996
+            }
+          ],
+          "spans": {
+            "profit_2031": 0.0,
+            "fcff_2031": 5406.452338992007,
+            "per_share": 21.686583187783413
+          }
+        },
+        {
+          "driver": "inventory_shift",
+          "low": -50.0,
+          "high": 50.0,
+          "endpoints": [
+            {
+              "input": -50.0,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 54495.887183810264,
+              "per_share": 756.4833061628104
+            },
+            {
+              "input": 50.0,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 53771.614033125355,
+              "per_share": 751.9066477273722
+            }
+          ],
+          "spans": {
+            "profit_2031": 0.0,
+            "fcff_2031": 724.2731506849086,
+            "per_share": 4.576658435438276
+          }
+        }
+      ],
+      "rankings": {
+        "profit_2031": [
+          "growth_shift",
+          "rd_ratio",
+          "capex_shift",
+          "inventory_shift"
+        ],
+        "fcff_2031": [
+          "growth_shift",
+          "rd_ratio",
+          "capex_shift",
+          "inventory_shift"
+        ],
+        "per_share": [
+          "growth_shift",
+          "rd_ratio",
+          "capex_shift",
+          "inventory_shift"
+        ]
+      }
+    },
+    "narrow_growth": {
+      "drivers": [
+        {
+          "driver": "growth_shift",
+          "low": -0.005,
+          "high": 0.005,
+          "endpoints": [
+            {
+              "input": -0.005,
+              "profit_2031": 79509.54526421994,
+              "fcff_2031": 53094.36785927922,
+              "per_share": 737.9475053177401
+            },
+            {
+              "input": 0.005,
+              "profit_2031": 83219.41063583248,
+              "fcff_2031": 55188.91257336434,
+              "per_share": 770.7142043861667
+            }
+          ],
+          "spans": {
+            "profit_2031": 3709.865371612541,
+            "fcff_2031": 2094.5447140851174,
+            "per_share": 32.76669906842653
+          }
+        },
+        {
+          "driver": "rd_ratio",
+          "low": 0.18,
+          "high": 0.22,
+          "endpoints": [
+            {
+              "input": 0.18,
+              "profit_2031": 84840.52496000002,
+              "fcff_2031": 56927.4778084678,
+              "per_share": 791.5520453754298
+            },
+            {
+              "input": 0.22,
+              "profit_2031": 77856.20696000001,
+              "fcff_2031": 51340.02340846778,
+              "per_share": 716.8379085147529
+            }
+          ],
+          "spans": {
+            "profit_2031": 6984.318000000014,
+            "fcff_2031": 5587.454400000017,
+            "per_share": 74.71413686067683
+          }
+        },
+        {
+          "driver": "capex_shift",
+          "low": -0.02,
+          "high": 0.02,
+          "endpoints": [
+            {
+              "input": -0.02,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 56836.976777963806,
+              "per_share": 765.0382685389831
+            },
+            {
+              "input": 0.02,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 51430.5244389718,
+              "per_share": 743.3516853511996
+            }
+          ],
+          "spans": {
+            "profit_2031": 0.0,
+            "fcff_2031": 5406.452338992007,
+            "per_share": 21.686583187783413
+          }
+        },
+        {
+          "driver": "inventory_shift",
+          "low": -50.0,
+          "high": 50.0,
+          "endpoints": [
+            {
+              "input": -50.0,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 54495.887183810264,
+              "per_share": 756.4833061628104
+            },
+            {
+              "input": 50.0,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 53771.614033125355,
+              "per_share": 751.9066477273722
+            }
+          ],
+          "spans": {
+            "profit_2031": 0.0,
+            "fcff_2031": 724.2731506849086,
+            "per_share": 4.576658435438276
+          }
+        }
+      ],
+      "rankings": {
+        "profit_2031": [
+          "rd_ratio",
+          "growth_shift",
+          "capex_shift",
+          "inventory_shift"
+        ],
+        "fcff_2031": [
+          "rd_ratio",
+          "capex_shift",
+          "growth_shift",
+          "inventory_shift"
+        ],
+        "per_share": [
+          "rd_ratio",
+          "growth_shift",
+          "capex_shift",
+          "inventory_shift"
+        ]
+      }
+    },
+    "wide_rd_inventory": {
+      "drivers": [
+        {
+          "driver": "growth_shift",
+          "low": -0.05,
+          "high": 0.05,
+          "endpoints": [
+            {
+              "input": -0.05,
+              "profit_2031": 64342.504630399984,
+              "fcff_2031": 44421.30972686976,
+              "per_share": 603.3916794110061
+            },
+            {
+              "input": 0.05,
+              "profit_2031": 101579.62688,
+              "fcff_2031": 65425.18982102712,
+              "per_share": 932.1981897710787
+            }
+          ],
+          "spans": {
+            "profit_2031": 37237.12224960001,
+            "fcff_2031": 21003.880094157357,
+            "per_share": 328.8065103600726
+          }
+        },
+        {
+          "driver": "rd_ratio",
+          "low": 0.18,
+          "high": 0.24,
+          "endpoints": [
+            {
+              "input": 0.18,
+              "profit_2031": 84840.52496000002,
+              "fcff_2031": 56927.4778084678,
+              "per_share": 791.5520453754298
+            },
+            {
+              "input": 0.24,
+              "profit_2031": 74364.04796000003,
+              "fcff_2031": 48546.2962084678,
+              "per_share": 679.4808400844147
+            }
+          ],
+          "spans": {
+            "profit_2031": 10476.476999999999,
+            "fcff_2031": 8381.181599999996,
+            "per_share": 112.07120529101508
+          }
+        },
+        {
+          "driver": "capex_shift",
+          "low": -0.02,
+          "high": 0.02,
+          "endpoints": [
+            {
+              "input": -0.02,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 56836.976777963806,
+              "per_share": 765.0382685389831
+            },
+            {
+              "input": 0.02,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 51430.5244389718,
+              "per_share": 743.3516853511996
+            }
+          ],
+          "spans": {
+            "profit_2031": 0.0,
+            "fcff_2031": 5406.452338992007,
+            "per_share": 21.686583187783413
+          }
+        },
+        {
+          "driver": "inventory_shift",
+          "low": -50.0,
+          "high": 100.0,
+          "endpoints": [
+            {
+              "input": -50.0,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 54495.887183810264,
+              "per_share": 756.4833061628104
+            },
+            {
+              "input": 100.0,
+              "profit_2031": 81348.36596000002,
+              "fcff_2031": 53409.477457782894,
+              "per_share": 749.618318509653
+            }
+          ],
+          "spans": {
+            "profit_2031": 0.0,
+            "fcff_2031": 1086.4097260273702,
+            "per_share": 6.864987653157414
+          }
+        }
+      ],
+      "rankings": {
+        "profit_2031": [
+          "growth_shift",
+          "rd_ratio",
+          "capex_shift",
+          "inventory_shift"
+        ],
+        "fcff_2031": [
+          "growth_shift",
+          "rd_ratio",
+          "capex_shift",
+          "inventory_shift"
+        ],
+        "per_share": [
+          "growth_shift",
+          "rd_ratio",
+          "capex_shift",
+          "inventory_shift"
+        ]
+      }
+    }
+  }
+}

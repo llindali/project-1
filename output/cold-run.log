@@ -1,4 +1,4 @@
-Cold run UTC 2026-10-06T17:05:19.640743+00:00
+Cold run UTC 2026-10-20T02:32:51.008852+00:00
 Fresh Python venv; no packages installed.
 Command: python model.py
 Exit: 0
@@ -64,7 +64,7 @@ Exit: 0
     "revenue_2031": 260868.83390531072,
     "status": "solved"
   },
-  "source_status": "Primary annual financials, Q2 LLY shares/bridge and September 8 market closes checked; personal assumption/receipt review pending",
+  "source_status": "Primary annual financials, Q2 LLY shares/bridge and September 8 market closes checked; Edition A and assumption review confirmed by Linda; unresolved validation/video requirements are tracked separately",
   "recommendation": "watch/defer; do not initiate before source and evidence gaps are closed"
 }
 Base value/share: 754.1949769450913
@@ -129,6 +129,72 @@ Exit: 0
   "pe_median": 468.4861607142857,
   "ev_median": 311.08214694091157,
   "status": "Financial inputs checked to primary annual filings; dated price closes independently rechecked October 6"
+}
+
+
+Command: python range_ranking.py
+Exit: 0
+{
+  "original": {
+    "profit_2031": [
+      "growth_shift",
+      "rd_ratio",
+      "capex_shift",
+      "inventory_shift"
+    ],
+    "fcff_2031": [
+      "growth_shift",
+      "rd_ratio",
+      "capex_shift",
+      "inventory_shift"
+    ],
+    "per_share": [
+      "growth_shift",
+      "rd_ratio",
+      "capex_shift",
+      "inventory_shift"
+    ]
+  },
+  "narrow_growth": {
+    "profit_2031": [
+      "rd_ratio",
+      "growth_shift",
+      "capex_shift",
+      "inventory_shift"
+    ],
+    "fcff_2031": [
+      "rd_ratio",
+      "capex_shift",
+      "growth_shift",
+      "inventory_shift"
+    ],
+    "per_share": [
+      "rd_ratio",
+      "growth_shift",
+      "capex_shift",
+      "inventory_shift"
+    ]
+  },
+  "wide_rd_inventory": {
+    "profit_2031": [
+      "growth_shift",
+      "rd_ratio",
+      "capex_shift",
+      "inventory_shift"
+    ],
+    "fcff_2031": [
+      "growth_shift",
+      "rd_ratio",
+      "capex_shift",
+      "inventory_shift"
+    ],
+    "per_share": [
+      "growth_shift",
+      "rd_ratio",
+      "capex_shift",
+      "inventory_shift"
+    ]
+  }
 }
 
 
