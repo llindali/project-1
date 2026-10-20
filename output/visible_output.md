@@ -1,6 +1,6 @@
 # Visible executed results
 
-September 8, 2026 · USD millions · review pending student confirmations
+September 8, 2026 · USD millions · Edition A and assumption review confirmed; separate validation/video requirements pending
 
 | Scenario | Per share USD | EV USD bn | Terminal share |
 |---|---:|---:|---:|

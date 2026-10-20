@@ -1,7 +1,9 @@
-# Publishing status
+# Publishing and freeze status
 
 Public repository: https://github.com/llindali/project-1
 
-The prepared review package was published on October 6, 2026. This repository contains the model, interface, evidence, executed results, review PDFs, and student action checklist.
+The model, review documents, evidence, all three recording links and supplied transcripts are published. See submission/submission-manifest.csv for video links and outstanding checks.
 
-This is a review package, not a completed Brightspace submission. Follow docs/student-actions.md for the checkpoint receipt, personal verification, human locked test, videos, transcripts, and final submission. The original local freeze commit in evidence/freeze-manifest.json identifies the prepublication content snapshot; GitHub publication has its own commit history.
+The content snapshot is identified by a published GitHub commit and SHA-256 hashes in evidence/freeze-manifest.json. The freeze record and submission manifest are metadata added after that snapshot and excluded from its hash set. Later file changes require a new freeze. No inaccessible local-only commit is used as the submission reference.
+
+Remaining requirements are listed in docs/student-actions.md. No final Brightspace submission or successful video access check is claimed.

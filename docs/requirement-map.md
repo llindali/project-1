@@ -9,13 +9,13 @@
 | Low/base/high, WACC-growth, terminal share, reverse DCF | visible output/JSON | Executed |
 | Peer policy + EV/equity multiples | legacy-peer-analysis, peers.py/JSON | Qualified P/E and approximate EV/revenue |
 | Explain method disagreement | Decision-Memo | Implemented; no averaging |
-| Driver sensitivity and range-ranking dependence | JSON, assumption-challenges, memo | Executed one-at-a-time ranges; include human discussion confirmation |
-| Assumption challenges and downside decision reversal | assumption-challenges and memo | Proposed decision conditions; personal confirmation pending |
+| Driver sensitivity and range-ranking dependence | JSON, assumption-challenges, memo | One-at-a-time results and October 7 discussion included; alternative-range ranking comparison still absent |
+| Assumption challenges and downside decision reversal | assumption-challenges and memo | Conditions reviewed by Linda; October 7 R&D challenge documented |
 | Adjustable product and failing checks | app.py + index.html, interface-check.log | HTTP base/change/failure/recovery checked |
 | Unchanged Edition A plus Edition B | preserved original + Research-Evolution | Screenshot checkpoint role and original match confirmed by Linda |
 | Synthetic known answer and independent check | test_model.py, ledger, validation | Passed/rechecked |
 | Locked human AI-off prediction | locked_test.py guard and student-actions | AI-assisted R&D verification recorded separately; human AI-off execution not established |
-| Clean run and failure log | output/cold-run.log, tests.log | Fresh venv passed; Linda recording pending |
+| Clean run and failure log | output/cold-run.log, tests.log | Technical fresh-environment run passed; required recording unverified |
 | Material AI disposition | Validation-and-AI-Use | Documented; prior exact model/version details unknown |
-| Three videos and corrected transcripts | rehearsal guides + manifest | INCOMPLETE; actual recording required |
-| Stable public links, frozen commit, access check | manifest | Publishing/video links pending |
+| Three videos and corrected transcripts | rehearsal guides + manifest | All three URLs and supplied transcripts present; duration/access/timestamps and playback corrections pending |
+| Stable public links, frozen commit, access check | manifest | Public repository and video links present; content snapshot recorded in freeze-manifest; video access checks pending |

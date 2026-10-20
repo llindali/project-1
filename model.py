@@ -82,7 +82,7 @@ def all_outputs():
   for v in values:
    r=run({key:v});last=r['statements'][-1];rows.append({'input':v,'profit_2031':last['operating_income'],'fcff_2031':last['fcff'],'per_share':r['valuation']['per_share']})
   drivers[key]=rows
- return {'valuation_date':str(DATE),'units':'USD millions except per-share USD; shares millions','base':base,'scenarios':scenarios,'wacc_growth':sensitivity,'driver_sensitivity':drivers,'reverse_dcf':reverse_growth(),'source_status':'Primary annual financials, Q2 LLY shares/bridge and September 8 market closes checked; personal assumption/receipt review pending','recommendation':'watch/defer; do not initiate before source and evidence gaps are closed'}
+ return {'valuation_date':str(DATE),'units':'USD millions except per-share USD; shares millions','base':base,'scenarios':scenarios,'wacc_growth':sensitivity,'driver_sensitivity':drivers,'reverse_dcf':reverse_growth(),'source_status':'Primary annual financials, Q2 LLY shares/bridge and September 8 market closes checked; Edition A and assumption review confirmed by Linda; unresolved validation/video requirements are tracked separately','recommendation':'watch/defer; do not initiate before source and evidence gaps are closed'}
 
 if __name__=='__main__':
  out=all_outputs();Path('output').mkdir(exist_ok=True);Path('output/visible_output.json').write_text(json.dumps(out,indent=2));print(json.dumps({k:v for k,v in out.items() if k not in ('base','driver_sensitivity','wacc_growth')},indent=2));print('Base value/share:',out['base']['valuation']['per_share'])

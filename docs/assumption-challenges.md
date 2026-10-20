@@ -1,4 +1,4 @@
-# Assumption challenge record — AI-assisted, Linda review pending
+# Assumption challenge record — Linda review and October 7 discussion documented
 
 These ranges are research stresses, not statistical confidence bounds. Every control uses the same restored base; linked statements recalculate. Tests rank drivers by output span over the stated range, so changing range width can change the ranking. No range was inferred to be historically proven merely because it appears in the interface.
 

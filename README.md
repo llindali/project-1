@@ -4,7 +4,7 @@
 
 **Proposed decision: watch/defer.** Five-year statements feed an FCFF DCF, causal cases, sensitivity and a reverse DCF. Qualified MRK/PFE P/E and approximate EV/revenue supply market cross-checks. The locally runnable interface has bounded controls, base reset, live statements/value, and an intentional failing-check demonstration.
 
-**Status: not yet ready for final Brightspace submission.** Edition A and the corrected assumption review are confirmed by Linda; the human AI-off prediction and three actual recordings/transcripts remain incomplete. See [remaining actions](docs/student-actions.md). No receipt, pre-run prediction, video or partner interaction is invented.
+**Status: not yet ready for final Brightspace submission.** Edition A and the corrected assumption review are confirmed by Linda; all three video links and supplied transcripts are now included. The separate human AI-off exercise, video duration/access/timestamp checks, Video 3 corrections and recorded cold-run evidence remain unresolved. See [remaining actions](docs/student-actions.md). No receipt, pre-run prediction, video or partner interaction is invented.
 
 ## Run
 
@@ -53,3 +53,6 @@ Linda confirmed that the supplied Lab 03 screenshot serves as Edition A checkpoi
 
 ## Partner discussion
 [October 7 discussion with Annika Rao](docs/Partner-Discussion.md), reported by Linda: R&D leverage challenge, corrected sensitivity evidence, unchanged watch/defer decision, and follow-up research.
+
+## Frozen content snapshot
+The published content commit, repository URL and SHA-256 hashes are recorded in evidence/freeze-manifest.json. The submission manifest references that content commit. The freeze record and submission manifest are excluded from their own hash set to avoid circular references. This is a reproducible package snapshot, not a claim that outstanding course requirements are complete.
